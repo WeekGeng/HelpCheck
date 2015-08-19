@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.helpcheck.MarketSelActivity">
+
+    <ListView
+        android:layout_above="@+id/btn_sel_ok"
+        android:id="@+id/lv_market"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_sel_ok"
+        android:layout_width="match_parent"
+        android:text="@string/curten"
+        android:padding="12dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#aaff0000"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
